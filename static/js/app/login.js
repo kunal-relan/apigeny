@@ -29,7 +29,7 @@ angular.module('ngDirectiveForms')
 			console.log($scope.loginData);
 			$http({
 				method: 'POST',
-				url: 'http://192.168.1.3:5000/login',
+				url: '/login',
 				headers: {
 					'Content-Type': 'application/json'
 				},
